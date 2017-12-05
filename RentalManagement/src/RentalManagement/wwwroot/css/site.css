@@ -32,3 +32,23 @@ textarea {
         z-index: 10 !important;
     }
 }
+ .carousel-inner > .item > img,
+    .carousel-inner > .item > a > img {
+        width: 70%;
+        height: 400px;
+    }
+
+    .carousel-caption {
+        position: absolute;
+        left: auto;
+        right: auto;
+        width: 30%;
+        height: 100%;
+        background-color: #428bca;
+        opacity: 0.8;
+        bottom: 0;
+        right: 0;
+    }
+    .carousel-indicators{
+        visibility:hidden !important;
+    }
