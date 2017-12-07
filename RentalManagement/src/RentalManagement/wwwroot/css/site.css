@@ -44,11 +44,20 @@ textarea {
         right: auto;
         width: 30%;
         height: 100%;
-        background-color: #428bca;
+        background-color: white;
         opacity: 0.8;
         bottom: 0;
         right: 0;
+        color: black !important; 
     }
     .carousel-indicators{
         visibility:hidden !important;
+    }
+    .carousel-caption p {
+    font-size: 17px !important;
+    line-height: 2.4;
+}
+    .btnaling{
+left: 11px;
+    position: absolute;
     }
